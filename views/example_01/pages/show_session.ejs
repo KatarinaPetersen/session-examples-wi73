@@ -1,0 +1,15 @@
+<%- include("../partials/page_start") -%>
+
+<h1>Show Session</h1>
+
+<% if (typeof (productPrice) != 'undefined') { %>
+	<p>Product Price: <%= productPrice %></p>
+<% } %>
+
+<% if (typeof (productCount) != 'undefined') { %>
+	<p>Product Count: <%= productCount %></p>
+<% } %>
+
+<%- debugSessionData -%>
+
+<%- include("../partials/page_end") -%>

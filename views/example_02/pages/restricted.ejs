@@ -1,0 +1,9 @@
+<%- include("../partials/page_start") -%>
+
+<h1>Restricted page</h1>
+
+<% if (typeof (bananas) != 'undefined') { %>
+	<p>Bananas: <%= bananas %></p>
+<% } %>
+
+<%- include("../partials/page_end") -%>

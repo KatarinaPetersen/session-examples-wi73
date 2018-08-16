@@ -1,0 +1,115 @@
+
+/* ============================================ */
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+/* ============================================ */
+
+body {
+	margin: 20px;
+}
+
+/* ============================================ */
+
+/* Der er nogen formular-elementer som ikke arver body's font. Derfor gør jeg følgende */
+body, input, textarea {
+	font-family: Verdana, sans-serif;
+	font-size: 13px;
+}
+
+/* ============================================ */
+
+p {
+	margin-bottom: 15px;
+}
+
+/* ============================================ */
+
+hr {
+	margin: 15px 0px;
+	border: 0px;
+	border-top: 1px solid #888;
+}
+
+/* ============================================ */
+
+a {
+	color: blue;
+	text-decoration: none;
+}
+
+/* ============================================ */
+
+a:hover {
+	color: black;
+}
+
+/* ============================================ */
+
+ul#menu {
+	overflow: hidden;
+	padding-bottom: 5px;
+	margin-bottom: 35px;
+	border-bottom: 1px solid #888;
+}
+
+	/* ============================================ */
+
+	#menu li {
+		float: left;
+		list-style-type: none;
+		padding: 0px 12px;
+		border-right: 1px solid #888;
+	}
+
+		/* ============================================ */
+
+		#menu li:nth-of-type(2) {
+			padding-left: 0px;
+		}
+
+		/* ============================================ */
+
+		#menu li:first-child {
+			border-right: none;
+			padding-right: 0px;
+		}
+
+		/* ============================================ */
+
+		#menu li:last-child {
+			border-right: none;
+		}
+
+			/* ============================================ */
+
+			#menu a {
+				display: block;
+				color: blue;
+				font-weight: bold;
+				text-decoration: none;
+			}
+
+			/* ============================================ */
+
+			#menu a:hover {
+				color: black;
+			}
+
+/* ============================================ */
+
+h1 {
+	margin-bottom: 15px;
+	font-size: 18px;
+}
+
+/* ============================================ */
+
+pre {
+	margin-top: 40px;
+	padding: 5px;
+	border: 1px solid #aaa;
+}
